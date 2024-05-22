@@ -26,7 +26,7 @@ temporary repository for publishing results on anonymous github. Will be moved t
 ## other files:
 * Benchmark framework configuration file used: `configuration-2024-05-sparql.yml`
 * Count for all experiments per task and model combinations present in result files: `sparql6-boxplots__stats.csv`
-* Logs of Matrix-Run executions generating the given result files: [`MatrixRu-Logs/`](MatrixRu-Logs/)
+* Logs of Matrix-Run executions generating the given result files: [`MatrixRun-Logs/`](MatrixRun-Logs/)
 
 ## repetition of evaluation with given result files:
-* The Benchmarking framework supports the reevaluation of given result files via the --reeval parameter
+* The Benchmarking framework supports the reevaluation of given result files via the `--reeval` parameter
