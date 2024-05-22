@@ -4,10 +4,10 @@ temporary repository for publishing results on anonymous github. Will be moved t
 
 ## Results for 4 SPARQL SELECT query related task types:
 
-* (SparqlSyntaxFixing)[SparqlSyntaxFixing]: Fixing syntax errors in SPARQL SELECT queries
-* (Text2Sparql)[Text2Sparql]: Generate SPARQL SELECT queries from textual questions
-* (Text2Answer)[Text2Answer]: Generate the answer for a textual question with a given knowledge graph
-* (Sparql2Answer)[Sparql2Answer]: Generate the answer for a SPARQL SELECT query with a given knowledge graph
+* [SparqlSyntaxFixing](SparqlSyntaxFixing): Fixing syntax errors in SPARQL SELECT queries
+* [Text2Sparql](Text2Sparql): Generate SPARQL SELECT queries from textual questions
+* [Text2Answer](Text2Answer): Generate the answer for a textual question with a given knowledge graph
+* [Sparql2Answer](Sparql2Answer): Generate the answer for a SPARQL SELECT query with a given knowledge graph
 
 
 ## Files generated for each run:
@@ -26,7 +26,7 @@ temporary repository for publishing results on anonymous github. Will be moved t
 ## other files:
 * Benchmark framework configuration file used: `configuration-2024-05-sparql.yml`
 * Count for all experiments per task and model combinations present in result files: `sparql6-boxplots__stats.csv`
-* Logs of Matrix-Run executions generating the given result files: (MatrixRu-Logs/)[MatrixRu-Logs/]
+* Logs of Matrix-Run executions generating the given result files: [`MatrixRu-Logs/`](MatrixRu-Logs/)
 
 ## repetition of evaluation with given result files:
 * The Benchmarking framework supports the reevaluation of given result files via the --reeval parameter
