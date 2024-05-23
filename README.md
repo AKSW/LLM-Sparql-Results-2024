@@ -13,11 +13,11 @@ temporary repository for publishing results on anonymous github. Will be moved t
 ## Files generated for each run:
 
 * result files generated, different serialization formats containing same information:
-    * `llm-kg-bench_run-[YYYY-mm-DD_HH-MM-ss]_result.json`
-    * `llm-kg-bench_run-[YYYY-mm-DD_HH-MM-ss]_result.yaml`
-    * `llm-kg-bench_run-[YYYY-mm-DD_HH-MM-ss]_result.txt`
-* model log containing all text sent between benchmark framework an LLM models: `llm-kg-bench_run-[YYYY-mm-DD_HH-MM-ss]_modelLog.jsonl`
-* debug log with extensive log messages: `llm-kg-bench_run-[YYYY-mm-DD_HH-MM-ss]_debug-log.log`
+    * `*_run-[YYYY-mm-DD_HH-MM-ss]_result.json`
+    * `*_run-[YYYY-mm-DD_HH-MM-ss]_result.yaml`
+    * `*_run-[YYYY-mm-DD_HH-MM-ss]_result.txt`
+* model log containing all text sent between benchmark framework an LLM models: `*_run-[YYYY-mm-DD_HH-MM-ss]_modelLog.jsonl`
+* debug log with extensive log messages: `*_run-[YYYY-mm-DD_HH-MM-ss]_debug-log.log`
 
 ## stats and plots generated per task
 * csv/xlsx summary of all results for a task: `*.csv`/`*.xlsx`
