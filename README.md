@@ -1,13 +1,13 @@
 # LLM-Sparql-Results-2024
-temporary repository for publishing results on anonymous github. Will be moved to a permanent location later on.
+temporary repository for publishing results on anonymous github. Will be moved to a permanent location(github & zenodo) later on.
 
 
 ## Results for 4 SPARQL SELECT query related task types:
 
-* [SparqlSyntaxFixing](SparqlSyntaxFixing): Fixing syntax errors in SPARQL SELECT queries
-* [Text2Sparql](Text2Sparql): Generate SPARQL SELECT queries from textual questions
-* [Text2Answer](Text2Answer): Generate the answer for a textual question with a given knowledge graph
-* [Sparql2Answer](Sparql2Answer): Generate the answer for a SPARQL SELECT query with a given knowledge graph
+* [SparqlSyntaxFixing](SparqlSyntaxFixing/README.md): Fixing syntax errors in SPARQL SELECT queries
+* [Text2Sparql](Text2Sparql/README.md): Generate SPARQL SELECT queries from textual questions
+* [Text2Answer](Text2Answer/README.md): Generate the answer for a textual question with a given knowledge graph
+* [Sparql2Answer](Sparql2Answer/README.md): Generate the answer for a SPARQL SELECT query with a given knowledge graph
 
 
 ## Files generated for each run:
